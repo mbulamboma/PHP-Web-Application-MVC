@@ -1,0 +1,310 @@
+/*tous les boutons*/
+.Lire{
+    border: 2px solid black;
+    padding: 1rem;
+    border-radius: 3px;
+    text-decoration: none;
+    color: red;
+    
+}
+/*pour les telephone*/
+
+
+/* Le premier bouton lire 1ere page et 1er Div */
+.button1{
+    border-color: #b81f3f;
+    color: #b81f3f;
+}
+    /*Son Comportement au Survol de la souris*/
+ .button1:hover{
+        background-color: #b81f3f;
+        color: white;
+        -webkit-transition-property: color;
+        -webkit-transition-duration:.7s;
+        -webkit-transition-timing:ease-out;
+                    }
+/*Fin Button 1*/
+
+/* Le bouton 2 de la deuxieme boxe*/
+
+.button2{
+    border-color: white;
+    color: white;
+    position: absolute;
+    float: right;
+    right:5%;
+
+}
+/*behavior*/
+.button2:hover{
+    background-color: white;
+    color: #b81f3f ;
+-webkit-transition-property: color;
+-webkit-transition-duration:.7s;
+-webkit-transition-timing:ease-out;
+}
+/*Fin button 2*/
+
+/* 1ere Block */
+.firstDiv{
+    width: 65%;/*sa taille*/
+    padding-top: 1px;;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+    /*Sa Partie de Gauhe*/
+    #left{
+    float: left;
+    width: 50%;
+    margin-right: 25px;
+        }
+    /*Sa partie de Droite**/
+    #right{
+    padding-top: 0px;
+    }
+/* Fin 1ere Block*/
+
+
+/*2ieme Block */
+.secondDiv{
+    margin-top: 30px;
+    color: white;
+    padding-left: 13%;
+    width: 100%;
+    background-color: #b81f3f;/*rouge Bordeau*/
+    padding-top: 0px;
+}
+#titreDiv2{
+  margin-left: 10px;
+}
+/*Fin block 2*/
+
+/* La troisieme box, celle Contenant Les temoignages des membres
+C'est un tableau de 3 colones'
+*/
+
+.thirdDiv{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: -50px;
+}
+    /*Specification des colones*/
+.thirdDiv td{
+    text-align: center;  
+}
+/*Fin de div 3*/
+
+     /*Le box Contenat L'image*/
+.sixthDiv{
+    z-index: 0;
+    background-color: red;
+    width: 100%;
+    height: 230px;
+    margin-top: 100px;
+    overflow: hidden;
+}
+/*Fin box 4*/
+
+
+
+
+/* The forth Box */
+.fifthDiv{
+    margin-top: 50px;
+    width: 73%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+/* On a deja specifier ses proprietes*/
+.sixthDiv{
+  margin-top: 55px;
+  height: 250px;
+}
+#boite5{
+       width: 80%;
+       margin: auto;
+   }
+    
+/*box c'est la class de tous les box contenant les images des Alumnies'*/
+.box{
+    border: 1px solid #c7c7c7;
+    width: 250px;
+    padding: 4px;
+    box-shadow: 0 0 2px 0 rgba(0,0,0, 0.5);
+    font-size: 18px;
+    margin: 4px;
+    text-align: left;
+    display: inline-block;
+}
+.box a p{
+    margin-left: 10px;
+    font-size: 12px;
+}
+.box a{
+    text-decoration: none;
+    color: black;
+}
+.box a:hover h5{
+    color: red;
+}
+/* fin du forth box */
+#ButtonPosition{
+    margin-top: 50px;
+    margin-bottom: -20px;
+}
+
+/*Les encadrements des photos*/
+#boxesInBox8{
+    width: 200px;
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+
+/*le box contenant les images animes en JavaScript Et son Titre*/
+/*centrons tous les images afin de centrer notre slide show*/
+.slideShow{
+    width: 900px;
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+    z-index: 0;
+}
+/*lebouton de la gallery*/
+.btnGallery{
+    position: absolute;
+    width: 900px;
+    text-align: center;
+    margin-top: -50px;
+    
+}
+
+/*The background of Navigation Bar must be red*/
+.navigation ul li:first-child{
+    background-color: red;
+}
+
+/*le design pour le telephone*/
+
+@media (max-width: 767px) {
+    /*le corps */
+    body{
+        font-size: 10px;
+    }
+    /*tous les boutons de redirection*/
+    .Lire{
+    font-size: 10px;
+    }
+    .firstDiv{
+        font-size: 10px;
+        width: 80%;
+    }
+  #titre{
+      font-weight: bolder;
+       font-size: 14px;
+   }
+   #titreDiv2{
+       font-size: 16px;
+       font-weight: bolder;
+   }
+   /*deuxieme box*/
+   .secondDiv{
+       font-size: 10px;
+       padding-top: 0;
+   }
+   .thirdDiv{
+       width: 100%;
+       font-size: 14px;
+   }
+   .thirdDiv h3{
+       font-size: 15px;
+       font-weight: bold;
+       border: none;
+   }
+   .boite5{
+       width: 100%;
+       padding-left: 20%;
+   }
+    
+}
+.wrapper{
+    padding-top: 50px;
+    text-align: center;
+}
+#formulaire{
+    text-align: left;
+    width: 55%;
+    margin: auto;
+    border: 1px solid gray;
+    box-shadow: 0 0 150px 0 rgba(2,0,2,.9);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.formulaire{
+      width: 55%;
+      padding: 20px;
+      padding-top: 10px;
+      margin: auto;
+      text-align: left;
+      box-shadow: 0 0 150px 0 rgba(0,0,0,.9);
+}
+
+.each{
+  display: inline-block;
+  box-shadow: 0 0 4px 0 rgba(0,0,0,.9);
+  margin: 10px;
+  padding: 4px;
+  padding-bottom: 8px;
+}
+.image img{
+      width: 250px;
+      height: 300px;
+}
+.membres{
+  width: 85%;
+  margin: auto;
+}
+.image figcaption{
+  position: absolute;
+  margin-top: -85px;
+  width: 253px;
+  height: 85px;
+  background: white;
+  opacity: 0.9;
+  color: black;
+}
+.image a{
+  text-decoration: none;
+  border: 2px solid gray;
+  border-radius: 4px;
+  color: gray;
+  padding: 10px 12px;
+}
+.image a:hover{
+  background: gray;
+  color: white;
+  border-color: gray;
+  text-decoration: none;
+}
+.connexion{
+    padding: 10px 10px;
+    background: red;
+    color: white;
+    border-radius: 4px;
+    position: absolute;
+    right: 3rem;
+    top: 6px;
+}
+.connexion:hover{
+    background:lightblue;
+    color: white;
+    text-decoration: none;
+}

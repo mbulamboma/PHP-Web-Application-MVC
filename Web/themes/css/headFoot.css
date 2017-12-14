@@ -1,0 +1,182 @@
+/*
+Ce Site est une Volonte des membres de L'english Club;
+il est Concu pour la promotion  et la valorisation
+de l'anglais en RDC through Mohamed Ali American Corner Englsih Club.
+Je rappel que ceci est une propriete intellectuel.
+Toute Copie ou modification d'un seul code dans un but Commercial 
+sans l'autorisation de l'auteur est Strictemnt interdit.
+Mais Les commentaires sont mis que pour permettre to students
+    D'apprendre et d'ameliorer leur design.
+*/
+/* 
+    Created on : 28 août 2017, 00:22:58
+   Designed by   : Gilberto Mbula
+    email : gilberto.Mbula@gmail.com
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    transition: all .9s;
+}
+
+root { 
+    display: block;
+}
+#logo{
+    position: absolute;
+    top: 0;
+    width: 250px;
+    font-size: small;
+    font-weight: bold; 
+    margin-left: 20px;
+    padding: 5px;
+    text-align: right;
+}
+#logo img{
+    float: left;
+    position: absolute;
+    top: -8px;
+    left: 50px;
+    }
+
+/* The Body Of the Page, General Parameters */
+body{
+    background-color: whitesmoke;/* la texture du background */
+    width: 100%;/* The size of the Page*/
+    margin: 0;/*Les marges de la Page: Ici Automatique*/
+    font-family: Georgia,Arial, Helvetica, sans-serif;/*the Style of the Text: Georgia C'est Imposant'*/
+    text-align: left; /*l'Alignement des Test: Ici A gauche */
+    font-size: medium;/*The Size of the text*/
+    color: #000000;/*The color of the text*/
+}
+
+/* la barre de navigation*, The Nav Barre*/
+header{
+    position: fixed;/*The bar must be absolutely on top of every thing*/
+    margin: 0;/*it position from the top root*/
+    padding: 0;
+    width: 100%; /*its size*/
+    height: 58px;
+    box-shadow:  0 0 5px 0 rgba(0,0,0,0.9);/*the bar will have a shadow of width 5px*/
+    border-bottom: 2px solid red;/*the border bottom of my menu will be red*/
+    background-image: repeating-linear-gradient(whitesmoke 85%, #ededed 90%);/*texture Gilberto*/
+    z-index: 10;/*The bar must be on top of evry thing*/
+      }
+      
+      /*essayons d'aligner le contenu de la bar et effacer les padding*/
+nav{
+          width: 95%;/*its size*/
+          margin-left: 22%;
+          margin-bottom: 0;/*delete top and bottom margin*/
+          margin-top: 0;
+          padding: 0;
+      }
+/*direct elements of nav=ul*/
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+/*Boxes of the nav bar*/
+ul li{
+    display: inline-block;/*The menues will be align horizontaly*/
+    width: 150px;/*the size of each box containing a menu*/
+    font-size: 20px;
+    text-align: center;
+    padding: 0px;
+}
+/*All links child of nav ;) */
+ul li a{
+    text-decoration: none;/*All those fu... links won't be underlined ;)*/
+    color: black;/*You are not obliged to explain every codes Mbula mboma :( */
+    font-size: 20px;/* Ho! you know it's important for beginners*/
+    display: block;
+    padding: 17px 18px;
+    margin: 0px;
+}
+
+/*When the the mousse is on the menu react like this*/
+ul li a:hover{
+    background-color: #a8a7a8;/*color of the background*/
+}
+
+
+
+/*to allow sub menu to be at the bottom*/
+ul li ul li{
+    float: right;
+    text-align: left;
+    background-image: repeating-linear-gradient(whitesmoke 85%, #ededed 90%);/*texture Gilberto*/
+    box-shadow: 0 0 1px 0 rgba(0,0,0,0.9);
+    display: none;/*hide Every Submenu. Ok!*/
+}
+/*let's make sure it will appear when the mousse is over Gilbert :0*/
+ul li:hover ul li{
+    display: block;
+}
+/* Don't forget Le content of the page must pass under the nav Bar'*/
+/*It contains the footer and the real Body*/
+#wrap{
+    z-index: 0;/*this means Under Nav bar*/
+    position: absolute;/*Absolutly*/
+    padding: 0px;
+    width: 100%;
+    margin-top: 47px;
+}
+/*It's the place where the Content Will be placed*/
+.RealBody{
+    width: 100%;
+    margin: 0px;
+}
+
+
+
+
+
+
+
+/*Ce sont les petits reglages That you already know. useless to explain again*/
+footer{
+    margin-top: 50px;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+footer{
+    color: white;
+    text-align: center;
+}
+footer nav{
+    margin-left: 3%;
+}
+footer ul li{
+    display: inline-block;/*The menues will be align horizontaly*/
+    font-size: 20px;
+    padding: 0px;
+}
+
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+aside{
+    float: right;
+    width: 250px;
+    margin-top: 20px;
+}
+.register{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+aside img{
+    margin-left: 10px;
+}
+.Map{
+    margin-top: 10px;
+    text-align: center;
+}
+
